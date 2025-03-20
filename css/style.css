@@ -1,6 +1,7 @@
 :root {
   --color1: #ff4d4d;
   --color2: #002b56;
+  --color2-alt: #012549;
   --transition: 0.3s;
 }
 * {
@@ -30,6 +31,8 @@ img {
 }
 .copyright {
   display: block;
+  width: fit-content;
+  margin: auto;
 }
 .copyright img {
   max-width: 300px;
@@ -46,7 +49,7 @@ input {
   padding: 15px;
   font-size: 18px;
   border: none;
-  background-color: #012549;
+  background-color: var(--color2-alt);
   border-bottom: 2px solid white;
   color: white;
 }
